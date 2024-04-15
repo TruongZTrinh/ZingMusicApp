@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ExpandedTitleTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CpllapsedTitleTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>

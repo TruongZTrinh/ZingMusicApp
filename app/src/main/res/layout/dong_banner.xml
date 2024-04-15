@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:background="@drawable/custom_background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </View>
+
+    <ImageView
+        android:id="@+id/imageViewBackgroundBanner"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@id/imageViewBackgroundBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewBanner"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+
+        </ImageView>
+
+        <TextView
+            android:text="Suýt Nữa Thì"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/textViewTitleBannerBaiHat"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageViewBanner"
+            android:layout_alignTop="@id/imageViewBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageViewBanner"
+            android:layout_below="@id/textViewTitleBannerBaiHat"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/textViewNoiDungSong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Một ca khúc vô cùng xúc động nói về một tình yêu đơn phương mà chàng trai dành cho cô gái"
+                android:textColor="@color/white"
+                android:textSize="13dp"
+                android:layout_marginRight="40dp"
+                android:maxLines="2">
+
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

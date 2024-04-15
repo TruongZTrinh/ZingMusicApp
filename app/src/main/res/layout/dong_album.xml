@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:id="@+id/linearLayoutCardViewAlbum"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewAlbum"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/textViewTitleAlbum"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:text="Ngày Xuân Long Phụng Sum Vầy "
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:maxWidth="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/textViewTenCaSiAlbum"
+            android:text="Noo Phước Thịnh"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:textColor="#9e9797"
+            android:maxWidth="200dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

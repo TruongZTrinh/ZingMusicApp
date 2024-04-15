@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTitlePlaylist"
+        android:text="NHỊP ĐIỆU CẢM XÚC"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitlePlaylist">
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:id="@+id/textViewViewMorePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerViewPlaylist"
+        android:text="Xem thêm Playlist"
+        android:textSize="18sp"
+        android:textColor="#0a0a0a"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:drawablePadding="10dp"
+        android:background="#c9c7c7">
+    </TextView>
+</RelativeLayout>
